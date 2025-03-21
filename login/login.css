@@ -7,6 +7,7 @@
     box-sizing: border-box;
 
 }
+
 /* .titulo {
 
    font-size: 76px;
@@ -18,6 +19,11 @@
     font-size: 76px;
 
 } */
+
+.page-cotainer {
+display: flex;
+
+}
 
 h1 {
 
@@ -37,6 +43,7 @@ margin-bottom: 16px;
     width: 377px; /*largura*/ 
     margin-bottom: 16px;
 }
+
 .btn { 
     padding: 18px;
     background-color: black;
@@ -54,5 +61,18 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 50vw;
+}
+
+.robo-image {
+
+    background-image: url("../assets/imgs/Sidebar.png");
+    background-size: cover;
+
+
+    width: 50vw;
+    height: 100vh;
+
+
 
 }
